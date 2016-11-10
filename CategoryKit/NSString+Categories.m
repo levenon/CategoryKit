@@ -269,7 +269,6 @@ NSString *findLetter(int nCode);
     return YES;
 }
 
-#pragma mark  处理电话号码
 //处理  0 +86 等前缀,系统将统一去掉这些前缀
 + (NSString*)handlePhoneNumber:(NSString*)phoneNumber{
     if ([phoneNumber hasPrefix:@"0"]) {
