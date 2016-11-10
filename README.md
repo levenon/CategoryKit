@@ -1,0 +1,2 @@
+# CategoryKit
+Common categories
