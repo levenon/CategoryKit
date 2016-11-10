@@ -57,18 +57,18 @@ NSString *findLetter(int nCode);
 
 + (char) sortSectionTitle:(NSString *)string {
     int cLetter = 0;
-    if( !string || 0 == [string length] )
+    if( !string || 0 == [string length] ) {
         cLetter = '#';
-    else {
+    } else {
         if(([string characterAtIndex:0] > 64 && [string characterAtIndex:0] < 91) ||
            ([string characterAtIndex:0] > 96 && [string characterAtIndex:0] < 123) ) {
-            
             cLetter = [string characterAtIndex:0];
-        } else
+        } else {
             cLetter = pinyinFirstLetter((unsigned short)[string characterAtIndex:0]);
-        
-        if(cLetter > 95)
+        }
+        if(cLetter > 95) {
             cLetter -= 32;
+        }
     }
     return cLetter;
 }
