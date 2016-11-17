@@ -25,7 +25,11 @@
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone && !(([UIDevice deviceModelType] & UIDeviceModelPodAll) && YES)) {
         NSURL *phoneURL = [NSURL URLWithString:[NSString stringWithFormat:@"telprompt:%@",phoneNumber]];
         if (enable) {
-            [[[UIWebView alloc] initWithFrame:CGRectZero] loadRequest:[NSURLRequest requestWithURL:phoneURL]];
+            static UIWebView *webView = nil;
+            if (!webView) {
+                webView = [[UIWebView alloc] initWithFrame:CGRectZero];
+            }
+            [webView loadRequest:[NSURLRequest requestWithURL:phoneURL]];
             return YES;
         } else {
             return [[UIApplication sharedApplication] openURL:phoneURL];
