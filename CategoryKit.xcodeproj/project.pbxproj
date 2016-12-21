@@ -6,8 +6,69 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		087AE2D51E0A8C1400660BF0 /* NSArray+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558B51E0A629300CD9C0E /* NSArray+Categories.m */; };
+		087AE2D61E0A8C1400660BF0 /* NSAttributedString+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558B61E0A629300CD9C0E /* NSAttributedString+Categories.m */; };
+		087AE2D71E0A8C1400660BF0 /* NSBundle+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558B71E0A629300CD9C0E /* NSBundle+Categories.m */; };
+		087AE2D81E0A8C1400660BF0 /* NSData+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558B81E0A629300CD9C0E /* NSData+Categories.m */; };
+		087AE2D91E0A8C1400660BF0 /* NSDate+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558B91E0A629300CD9C0E /* NSDate+Categories.m */; };
+		087AE2DA1E0A8C1400660BF0 /* NSDateComponents+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558BA1E0A629300CD9C0E /* NSDateComponents+Categories.m */; };
+		087AE2DB1E0A8C1400660BF0 /* NSDictionary+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558BB1E0A629300CD9C0E /* NSDictionary+Categories.m */; };
+		087AE2DC1E0A8C1400660BF0 /* NSFileManager+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558BC1E0A629300CD9C0E /* NSFileManager+Categories.m */; };
+		087AE2DD1E0A8C1400660BF0 /* NSIndexPath+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558BD1E0A629300CD9C0E /* NSIndexPath+Categories.m */; };
+		087AE2DE1E0A8C1400660BF0 /* NSIndexSet+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558BE1E0A629300CD9C0E /* NSIndexSet+Categories.m */; };
+		087AE2DF1E0A8C1400660BF0 /* NSObject+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558BF1E0A629300CD9C0E /* NSObject+Categories.m */; };
+		087AE2E01E0A8C1400660BF0 /* NSString+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558C01E0A629300CD9C0E /* NSString+Categories.m */; };
+		087AE2E11E0A8C1400660BF0 /* NSUserDefault+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558C11E0A629300CD9C0E /* NSUserDefault+Categories.m */; };
+		087AE2E21E0A8C1400660BF0 /* UIActionSheet+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558C21E0A629300CD9C0E /* UIActionSheet+Categories.m */; };
+		087AE2E31E0A8C1400660BF0 /* UIAlertView+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558C31E0A629300CD9C0E /* UIAlertView+Categories.m */; };
+		087AE2E41E0A8C1400660BF0 /* UIApplication+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558C41E0A629300CD9C0E /* UIApplication+Categories.m */; };
+		087AE2E51E0A8C1400660BF0 /* UIButton+HotSpotInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558C51E0A629300CD9C0E /* UIButton+HotSpotInsets.m */; };
+		087AE2E61E0A8C1400660BF0 /* UIColor+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558C61E0A629300CD9C0E /* UIColor+Categories.m */; };
+		087AE2E71E0A8C1400660BF0 /* UIDevice+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558C71E0A629300CD9C0E /* UIDevice+Categories.m */; };
+		087AE2E81E0A8C1400660BF0 /* UIFont+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558C81E0A629300CD9C0E /* UIFont+Categories.m */; };
+		087AE2E91E0A8C1400660BF0 /* UIImage+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558C91E0A629300CD9C0E /* UIImage+Categories.m */; };
+		087AE2EA1E0A8C1400660BF0 /* UIImage+RTTint.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558CA1E0A629300CD9C0E /* UIImage+RTTint.m */; };
+		087AE2EB1E0A8C1400660BF0 /* UIImageView+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558CB1E0A629300CD9C0E /* UIImageView+Categories.m */; };
+		087AE2EC1E0A8C1400660BF0 /* UILabel+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558CC1E0A629300CD9C0E /* UILabel+Categories.m */; };
+		087AE2ED1E0A8C1400660BF0 /* UISearchBar+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558CD1E0A629300CD9C0E /* UISearchBar+Categories.m */; };
+		087AE2EE1E0A8C1400660BF0 /* UIView+Borders.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558CE1E0A629300CD9C0E /* UIView+Borders.m */; };
+		087AE2EF1E0A8C1400660BF0 /* UIView+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558CF1E0A629300CD9C0E /* UIView+Categories.m */; };
+		087AE2F01E0A8C1400660BF0 /* UIViewController+Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F558D01E0A629300CD9C0E /* UIViewController+Categories.m */; };
+		087AE2F11E0A8C4600660BF0 /* CategoryMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558981E0A629300CD9C0E /* CategoryMacros.h */; };
+		087AE2F21E0A8C4600660BF0 /* NSArray+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558991E0A629300CD9C0E /* NSArray+Categories.h */; };
+		087AE2F31E0A8C4600660BF0 /* NSAttributedString+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F5589A1E0A629300CD9C0E /* NSAttributedString+Categories.h */; };
+		087AE2F41E0A8C4600660BF0 /* NSBundle+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F5589B1E0A629300CD9C0E /* NSBundle+Categories.h */; };
+		087AE2F51E0A8C4600660BF0 /* NSData+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F5589C1E0A629300CD9C0E /* NSData+Categories.h */; };
+		087AE2F61E0A8C4600660BF0 /* NSDate+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F5589D1E0A629300CD9C0E /* NSDate+Categories.h */; };
+		087AE2F71E0A8C4600660BF0 /* NSDateComponents+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F5589E1E0A629300CD9C0E /* NSDateComponents+Categories.h */; };
+		087AE2F81E0A8C4600660BF0 /* NSDictionary+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F5589F1E0A629300CD9C0E /* NSDictionary+Categories.h */; };
+		087AE2F91E0A8C4600660BF0 /* NSFileManager+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558A01E0A629300CD9C0E /* NSFileManager+Categories.h */; };
+		087AE2FA1E0A8C4600660BF0 /* NSIndexPath+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558A11E0A629300CD9C0E /* NSIndexPath+Categories.h */; };
+		087AE2FB1E0A8C4600660BF0 /* NSIndexSet+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558A21E0A629300CD9C0E /* NSIndexSet+Categories.h */; };
+		087AE2FC1E0A8C4600660BF0 /* NSObject+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558A31E0A629300CD9C0E /* NSObject+Categories.h */; };
+		087AE2FD1E0A8C4600660BF0 /* NSString+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558A41E0A629300CD9C0E /* NSString+Categories.h */; };
+		087AE2FE1E0A8C4600660BF0 /* NSUserDefault+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558A51E0A629300CD9C0E /* NSUserDefault+Categories.h */; };
+		087AE2FF1E0A8C4600660BF0 /* UIActionSheet+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558A61E0A629300CD9C0E /* UIActionSheet+Categories.h */; };
+		087AE3001E0A8C4600660BF0 /* UIAlertView+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558A71E0A629300CD9C0E /* UIAlertView+Categories.h */; };
+		087AE3011E0A8C4600660BF0 /* UIApplication+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558A81E0A629300CD9C0E /* UIApplication+Categories.h */; };
+		087AE3021E0A8C4600660BF0 /* UIButton+HotSpotInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558A91E0A629300CD9C0E /* UIButton+HotSpotInsets.h */; };
+		087AE3031E0A8C4600660BF0 /* UIColor+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558AA1E0A629300CD9C0E /* UIColor+Categories.h */; };
+		087AE3041E0A8C4600660BF0 /* UIDevice+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558AB1E0A629300CD9C0E /* UIDevice+Categories.h */; };
+		087AE3051E0A8C4600660BF0 /* UIFont+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558AC1E0A629300CD9C0E /* UIFont+Categories.h */; };
+		087AE3061E0A8C4600660BF0 /* UIImage+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558AD1E0A629300CD9C0E /* UIImage+Categories.h */; };
+		087AE3071E0A8C4600660BF0 /* UIImage+RTTint.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558AE1E0A629300CD9C0E /* UIImage+RTTint.h */; };
+		087AE3081E0A8C4600660BF0 /* UIImageView+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558AF1E0A629300CD9C0E /* UIImageView+Categories.h */; };
+		087AE3091E0A8C4600660BF0 /* UILabel+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558B01E0A629300CD9C0E /* UILabel+Categories.h */; };
+		087AE30A1E0A8C4600660BF0 /* UISearchBar+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558B11E0A629300CD9C0E /* UISearchBar+Categories.h */; };
+		087AE30B1E0A8C4600660BF0 /* UIView+Borders.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558B21E0A629300CD9C0E /* UIView+Borders.h */; };
+		087AE30C1E0A8C4600660BF0 /* UIView+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558B31E0A629300CD9C0E /* UIView+Categories.h */; };
+		087AE30D1E0A8C4600660BF0 /* UIViewController+Categories.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F558B41E0A629300CD9C0E /* UIViewController+Categories.h */; };
+		087AE30E1E0A8C4600660BF0 /* CategoryKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F5588F1E0A61B000CD9C0E /* CategoryKit.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		087AE2A61E0A828D00660BF0 /* CategoryKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CategoryKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		087AE2CD1E0A8BFF00660BF0 /* CategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		08F5588F1E0A61B000CD9C0E /* CategoryKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryKit.h; sourceTree = "<group>"; };
 		08F558901E0A61B000CD9C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		08F558981E0A629300CD9C0E /* CategoryMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryMacros.h; sourceTree = "<group>"; };
@@ -70,7 +131,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		087AE2A21E0A828D00660BF0 /* Frameworks */ = {
+		087AE2C91E0A8BFF00660BF0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -91,7 +152,7 @@
 		08F5588D1E0A61B000CD9C0E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				087AE2A61E0A828D00660BF0 /* CategoryKit_iOS.framework */,
+				087AE2CD1E0A8BFF00660BF0 /* CategoryKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,32 +226,62 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		087AE2A31E0A828D00660BF0 /* Headers */ = {
+		087AE2CA1E0A8BFF00660BF0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				087AE2F11E0A8C4600660BF0 /* CategoryMacros.h in Headers */,
+				087AE2F21E0A8C4600660BF0 /* NSArray+Categories.h in Headers */,
+				087AE2F31E0A8C4600660BF0 /* NSAttributedString+Categories.h in Headers */,
+				087AE2F41E0A8C4600660BF0 /* NSBundle+Categories.h in Headers */,
+				087AE2F51E0A8C4600660BF0 /* NSData+Categories.h in Headers */,
+				087AE2F61E0A8C4600660BF0 /* NSDate+Categories.h in Headers */,
+				087AE2F71E0A8C4600660BF0 /* NSDateComponents+Categories.h in Headers */,
+				087AE2F81E0A8C4600660BF0 /* NSDictionary+Categories.h in Headers */,
+				087AE2F91E0A8C4600660BF0 /* NSFileManager+Categories.h in Headers */,
+				087AE2FA1E0A8C4600660BF0 /* NSIndexPath+Categories.h in Headers */,
+				087AE2FB1E0A8C4600660BF0 /* NSIndexSet+Categories.h in Headers */,
+				087AE2FC1E0A8C4600660BF0 /* NSObject+Categories.h in Headers */,
+				087AE2FD1E0A8C4600660BF0 /* NSString+Categories.h in Headers */,
+				087AE2FE1E0A8C4600660BF0 /* NSUserDefault+Categories.h in Headers */,
+				087AE2FF1E0A8C4600660BF0 /* UIActionSheet+Categories.h in Headers */,
+				087AE3001E0A8C4600660BF0 /* UIAlertView+Categories.h in Headers */,
+				087AE3011E0A8C4600660BF0 /* UIApplication+Categories.h in Headers */,
+				087AE3021E0A8C4600660BF0 /* UIButton+HotSpotInsets.h in Headers */,
+				087AE3031E0A8C4600660BF0 /* UIColor+Categories.h in Headers */,
+				087AE3041E0A8C4600660BF0 /* UIDevice+Categories.h in Headers */,
+				087AE3051E0A8C4600660BF0 /* UIFont+Categories.h in Headers */,
+				087AE3061E0A8C4600660BF0 /* UIImage+Categories.h in Headers */,
+				087AE3071E0A8C4600660BF0 /* UIImage+RTTint.h in Headers */,
+				087AE3081E0A8C4600660BF0 /* UIImageView+Categories.h in Headers */,
+				087AE3091E0A8C4600660BF0 /* UILabel+Categories.h in Headers */,
+				087AE30A1E0A8C4600660BF0 /* UISearchBar+Categories.h in Headers */,
+				087AE30B1E0A8C4600660BF0 /* UIView+Borders.h in Headers */,
+				087AE30C1E0A8C4600660BF0 /* UIView+Categories.h in Headers */,
+				087AE30D1E0A8C4600660BF0 /* UIViewController+Categories.h in Headers */,
+				087AE30E1E0A8C4600660BF0 /* CategoryKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		087AE2A51E0A828D00660BF0 /* CategoryKit_iOS */ = {
+		087AE2CC1E0A8BFF00660BF0 /* CategoryKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 087AE2AB1E0A828E00660BF0 /* Build configuration list for PBXNativeTarget "CategoryKit_iOS" */;
+			buildConfigurationList = 087AE2D21E0A8BFF00660BF0 /* Build configuration list for PBXNativeTarget "CategoryKit" */;
 			buildPhases = (
-				087AE2A11E0A828D00660BF0 /* Sources */,
-				087AE2A21E0A828D00660BF0 /* Frameworks */,
-				087AE2A31E0A828D00660BF0 /* Headers */,
-				087AE2A41E0A828D00660BF0 /* Resources */,
+				087AE2C81E0A8BFF00660BF0 /* Sources */,
+				087AE2C91E0A8BFF00660BF0 /* Frameworks */,
+				087AE2CA1E0A8BFF00660BF0 /* Headers */,
+				087AE2CB1E0A8BFF00660BF0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CategoryKit_iOS;
-			productName = "CategoryKit iOS";
-			productReference = 087AE2A61E0A828D00660BF0 /* CategoryKit_iOS.framework */;
+			name = CategoryKit;
+			productName = CategoryKit;
+			productReference = 087AE2CD1E0A8BFF00660BF0 /* CategoryKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -202,7 +293,7 @@
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = xulinfeng;
 				TargetAttributes = {
-					087AE2A51E0A828D00660BF0 = {
+					087AE2CC1E0A8BFF00660BF0 = {
 						CreatedOnToolsVersion = 8.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -220,13 +311,13 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				087AE2A51E0A828D00660BF0 /* CategoryKit_iOS */,
+				087AE2CC1E0A8BFF00660BF0 /* CategoryKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		087AE2A41E0A828D00660BF0 /* Resources */ = {
+		087AE2CB1E0A8BFF00660BF0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -236,17 +327,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		087AE2A11E0A828D00660BF0 /* Sources */ = {
+		087AE2C81E0A8BFF00660BF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				087AE2D51E0A8C1400660BF0 /* NSArray+Categories.m in Sources */,
+				087AE2D61E0A8C1400660BF0 /* NSAttributedString+Categories.m in Sources */,
+				087AE2D71E0A8C1400660BF0 /* NSBundle+Categories.m in Sources */,
+				087AE2D81E0A8C1400660BF0 /* NSData+Categories.m in Sources */,
+				087AE2D91E0A8C1400660BF0 /* NSDate+Categories.m in Sources */,
+				087AE2DA1E0A8C1400660BF0 /* NSDateComponents+Categories.m in Sources */,
+				087AE2DB1E0A8C1400660BF0 /* NSDictionary+Categories.m in Sources */,
+				087AE2DC1E0A8C1400660BF0 /* NSFileManager+Categories.m in Sources */,
+				087AE2DD1E0A8C1400660BF0 /* NSIndexPath+Categories.m in Sources */,
+				087AE2DE1E0A8C1400660BF0 /* NSIndexSet+Categories.m in Sources */,
+				087AE2DF1E0A8C1400660BF0 /* NSObject+Categories.m in Sources */,
+				087AE2E01E0A8C1400660BF0 /* NSString+Categories.m in Sources */,
+				087AE2E11E0A8C1400660BF0 /* NSUserDefault+Categories.m in Sources */,
+				087AE2E21E0A8C1400660BF0 /* UIActionSheet+Categories.m in Sources */,
+				087AE2E31E0A8C1400660BF0 /* UIAlertView+Categories.m in Sources */,
+				087AE2E41E0A8C1400660BF0 /* UIApplication+Categories.m in Sources */,
+				087AE2E51E0A8C1400660BF0 /* UIButton+HotSpotInsets.m in Sources */,
+				087AE2E61E0A8C1400660BF0 /* UIColor+Categories.m in Sources */,
+				087AE2E71E0A8C1400660BF0 /* UIDevice+Categories.m in Sources */,
+				087AE2E81E0A8C1400660BF0 /* UIFont+Categories.m in Sources */,
+				087AE2E91E0A8C1400660BF0 /* UIImage+Categories.m in Sources */,
+				087AE2EA1E0A8C1400660BF0 /* UIImage+RTTint.m in Sources */,
+				087AE2EB1E0A8C1400660BF0 /* UIImageView+Categories.m in Sources */,
+				087AE2EC1E0A8C1400660BF0 /* UILabel+Categories.m in Sources */,
+				087AE2ED1E0A8C1400660BF0 /* UISearchBar+Categories.m in Sources */,
+				087AE2EE1E0A8C1400660BF0 /* UIView+Borders.m in Sources */,
+				087AE2EF1E0A8C1400660BF0 /* UIView+Categories.m in Sources */,
+				087AE2F01E0A8C1400660BF0 /* UIViewController+Categories.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		087AE2AC1E0A828E00660BF0 /* Debug */ = {
+		087AE2D31E0A8BFF00660BF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -255,17 +374,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = CategoryKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.markejave.CategoryKit-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.markejave.CategoryKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		087AE2AD1E0A828E00660BF0 /* Release */ = {
+		087AE2D41E0A8BFF00660BF0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -274,11 +393,11 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = CategoryKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.markejave.CategoryKit-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.markejave.CategoryKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -383,14 +502,13 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		087AE2AB1E0A828E00660BF0 /* Build configuration list for PBXNativeTarget "CategoryKit_iOS" */ = {
+		087AE2D21E0A8BFF00660BF0 /* Build configuration list for PBXNativeTarget "CategoryKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				087AE2AC1E0A828E00660BF0 /* Debug */,
-				087AE2AD1E0A828E00660BF0 /* Release */,
+				087AE2D31E0A8BFF00660BF0 /* Debug */,
+				087AE2D41E0A8BFF00660BF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		08F558861E0A61B000CD9C0E /* Build configuration list for PBXProject "CategoryKit" */ = {
 			isa = XCConfigurationList;

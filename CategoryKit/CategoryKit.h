@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+//! Project version number for CategoryKit.
+FOUNDATION_EXPORT double CategoryKitVersionNumber;
+
+//! Project version string for CategoryKit.
+FOUNDATION_EXPORT const unsigned char CategoryKitVersionString[];
+
 #import "NSArray+Categories.h"
 #import "NSAttributedString+Categories.h"
 #import "NSBundle+Categories.h"

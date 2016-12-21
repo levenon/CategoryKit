@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "087AE2A51E0A828D00660BF0"
-               BuildableName = "CategoryKit_iOS.framework"
-               BlueprintName = "CategoryKit_iOS"
+               BlueprintIdentifier = "087AE2CC1E0A8BFF00660BF0"
+               BuildableName = "CategoryKit.framework"
+               BlueprintName = "CategoryKit"
                ReferencedContainer = "container:CategoryKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "087AE2A51E0A828D00660BF0"
-            BuildableName = "CategoryKit_iOS.framework"
-            BlueprintName = "CategoryKit_iOS"
+            BlueprintIdentifier = "087AE2CC1E0A8BFF00660BF0"
+            BuildableName = "CategoryKit.framework"
+            BlueprintName = "CategoryKit"
             ReferencedContainer = "container:CategoryKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "087AE2A51E0A828D00660BF0"
-            BuildableName = "CategoryKit_iOS.framework"
-            BlueprintName = "CategoryKit_iOS"
+            BlueprintIdentifier = "087AE2CC1E0A8BFF00660BF0"
+            BuildableName = "CategoryKit.framework"
+            BlueprintName = "CategoryKit"
             ReferencedContainer = "container:CategoryKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
