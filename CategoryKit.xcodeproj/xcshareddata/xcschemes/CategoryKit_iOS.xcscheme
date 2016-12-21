@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "08F5588B1E0A61B000CD9C0E"
-               BuildableName = "CategoryKit.framework"
-               BlueprintName = "CategoryKit"
+               BlueprintIdentifier = "087AE2A51E0A828D00660BF0"
+               BuildableName = "CategoryKit_iOS.framework"
+               BlueprintName = "CategoryKit_iOS"
                ReferencedContainer = "container:CategoryKit.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "08F5588B1E0A61B000CD9C0E"
-            BuildableName = "CategoryKit.framework"
-            BlueprintName = "CategoryKit"
+            BlueprintIdentifier = "087AE2A51E0A828D00660BF0"
+            BuildableName = "CategoryKit_iOS.framework"
+            BlueprintName = "CategoryKit_iOS"
             ReferencedContainer = "container:CategoryKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "08F5588B1E0A61B000CD9C0E"
-            BuildableName = "CategoryKit.framework"
-            BlueprintName = "CategoryKit"
+            BlueprintIdentifier = "087AE2A51E0A828D00660BF0"
+            BuildableName = "CategoryKit_iOS.framework"
+            BlueprintName = "CategoryKit_iOS"
             ReferencedContainer = "container:CategoryKit.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
