@@ -30,7 +30,7 @@ FOUNDATION_EXPORT const unsigned char CategoryKitVersionString[];
 #import "UIActionSheet+Categories.h"
 #import "UIAlertView+Categories.h"
 #import "UIApplication+Categories.h"
-#import "UIButton+Categories.h"
+#import "UIButton+HotSpotInsets.h"
 #import "UIColor+Categories.h"
 #import "UIDevice+Categories.h"
 #import "UIFont+Categories.h"
